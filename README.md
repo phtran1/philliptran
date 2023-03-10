@@ -8,3 +8,8 @@ TODO:
 - Get basic layout of website
 - Work on website aesthetics
 - Populate website with information
+  - Add aboutme
+  - Add Projects
+  - Add resume
+  
+ 
