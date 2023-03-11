@@ -1,0 +1,205 @@
+/* body{
+    background-color: rgb(74, 118, 148);
+    margin: 0%;
+    padding: 0%;
+    font-family: "Arial", Helvetica, sans-serif;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    /* background-image: url("static/street.jpg"); */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    
+    /* background-size: 1950px 300px; */
+    /* background-color: rgb(74, 118, 148); */
+    font-family: "Open Sans","Arial";
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+    /* background-color: rgb(74, 118, 148); */
+    background-color: white;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+.head{
+    margin:auto;
+    width: 65%;
+    height: 70px;
+    /* padding: 10px; */
+    /* background-color: red;    */
+}
+
+.float_left {
+    float: left;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+  }
+.float_right {
+    float: right;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+/* .home{
+    top: 25px;
+    left:25%;
+    position:absolute;
+}
+
+.about{
+    right: 25%;
+    top: 25px;
+    position: absolute;
+}
+
+.projects{
+    right: 20%;
+    top: 25px;
+    position: absolute;
+} */
+.title{
+    /* margin-top: 100px; */
+    background-image: url("/static/uw.jpg");
+    background-repeat: no-repeat;
+    
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    /* background-color:aqua; */
+}
+
+.text{
+    border: 4px solid;
+    margin-top: 100px;
+    margin: auto;
+    width: 50%;
+    background-color:aquamarine;
+}
+
+/* i{
+    font-size: 150px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+/* i{
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 95%;
+    left: 5%;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    transform: translate(-50%, -50%);
+} */
+
+#footer{
+    /* background-color: rgb(102, 235, 195); */
+    /* background-color:rgb(83, 230, 233); */
+    background-color: rgb(15, 15, 15);
+    /* background-color:slategray; */
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+
+.icons{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bi-brightness-high-fill{
+    color: white;
+    font-size: 25px;
+    margin-right: 100px;
+}
+
+.bi-moon{
+    color:black;
+    font-size: 25px;
+    margin-right: 100px;
+}
+
+.fa-github{
+    font-size: 25px;
+    margin-right: 100px;
+}
+.fa-linkedin{
+    font-size: 25px;
+    margin-right: 100px;
+}
+
+.fa-file-pdf{
+    font-size: 25px;
+} 
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
+}
+hr{
+    margin:auto;
+    /* width: 50%; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    /* color:aquamarine; */
+    text-decoration: underline;
+}
+
+.footicon{
+    color: white;
+}
+
+.footicon:hover{
+    color: teal;
+}
+
+ /* /projects/Multi-Paxos */
+ /* Learning how to use float */
+ #ok{
+    float: left;
+ }
+
+ .box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    font-size: 40px;
+    text-align: center;
+    background-color: aquamarine;
+
+    float: right;
+ }

@@ -1,0 +1,46 @@
+/* Project Style */
+*{
+    box-sizing: border-box;
+}
+
+/* #project{
+    background-image: url("/static/uw.jpg");
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    background-color: brown;
+} */
+
+.boxcontainer{
+    height: auto;
+    /* margin: auto; */
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    display:flex;
+    flex-wrap: wrap; 
+    /* justify-content: space-between; */
+    flex-direction: row;
+    justify-content:center;    
+}
+
+.box{
+    border: 0.5px solid whitesmoke;
+    /* box-shadow: 5px 10px #888888; */
+
+    width: 30.3%; 
+    height: 450px;
+    font-size: 22px;
+    background-color: rgb(95, 199, 173);
+    padding: 25px;
+    /* margin-top: 75px; */
+    margin-bottom: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    
+ }
