@@ -1,6 +1,7 @@
 # philliptran
  
 I am learning web development from scratch by building a personal page!
+<br>
 You can check out and see my progress here at:
 https://phtran1.netlify.app/
 
