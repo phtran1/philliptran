@@ -20,7 +20,7 @@
                 <a class="float_left" href="/index.html" target=_self>
                     Home
                 </a>
-                <a class="float_right" href="/projects/projects.html" target=_self>
+                <a class="float_right" href="projects.html" target=_self>
                     Projects
                 </a>
                 <a class="float_right" href="/about.html" target=_self>
@@ -38,12 +38,11 @@
             <!-- <div id="box1">Multi Paxos</div> -->
             
             <div class="boxcontainer">
-                <!-- <a href="/projects/Multi-Paxos.html" target=_self> -->
-                    <div class="box">
-                        <!-- Multi Paxos -->
-                        box1
-                    </div>
-                <!-- </a> -->
+                <div class="box" onclick="location.href='/projects/Multi-Paxos.html';" style="cursor:pointer;">
+                    <!-- Multi Paxos -->
+                    <img src="/static/donut.png" height="100" width="100">
+                    box1
+                </div>
                 <div class="box">
                     box2
                     <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quo esse laboriosam doloribus. Ipsa, perspiciatis, voluptas fuga in quo laborum ratione molestias nam iusto aut, est optio necessitatibus nisi deserunt? -->
@@ -75,19 +74,26 @@
     </div>
     <footer id="footer">
         <div class="icons">
-            <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+            <!-- <i class="bi bi-brightness-high-fill" id="toggleDark"></i> -->
+            <!-- <i class="bi bi-brightness-high-fill" id="check" onclick="changeStatus()"></i> -->
 
-            <a class = "footicon" href="https://github.com/phtran1" target=_blank>
-                <i class="fa-brands fa-github"></i>
-            </a>
+            <div class="iconbox">
+                <a class = "footicon" href="https://github.com/phtran1" target=_blank title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
 
-            <a class = "footicon" href="https://www.linkedin.com/in/phtran1/" target=_blank>
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
+            <div class="iconbox">
+                <a class = "footicon" href="https://www.linkedin.com/in/phtran1/" target=_blank title="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>>
 
-            <a class = "footicon" href="/static/Resume.pdf" target=_blank>
-                <i class="fa-solid fa-file-pdf"></i>
-            </a>
+            <div class="iconbox">
+                <a class = "footicon" href="/static/Resume.pdf" target=_blank title="Resume">
+                    <i class="fa-solid fa-file-pdf"></i>
+                </a>
+            </div>
         </div>
     </footer>
     
