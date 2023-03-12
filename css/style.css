@@ -144,12 +144,14 @@ a::before {
     height: 3px;
     bottom: -13px;
     left: 0;
-    background-color:dodgerblue;
+    /* background-color:dodgerblue; */
+    background-color:teal;
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }
 a:hover {
-    color: dodgerblue;
+    /* color: dodgerblue; */
+    color: teal;
 }
 a:hover::before {
     transform: scaleX(1);
@@ -214,6 +216,12 @@ a:hover::before {
     transition: transform 0.3s ease;
 }
 
+/* .copyright {
+    color:white;
+    text-align: right;
+    margin-top: 50px;
+    margin-right: -740px;
+} */
 /* .footicon:hover::before {
     transform: scaleX(1);
 } */
