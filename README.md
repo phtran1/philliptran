@@ -13,6 +13,9 @@ TODO:
 - Populate website with information
   - Add aboutme
   - Add Projects
-  - Add resume
+  - ~~Add resume~~
+   - Update Resume
+- Make website UI fit mobile browsers
+  
   
  
