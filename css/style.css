@@ -93,9 +93,16 @@ html, body{
 }
 
 .titlebox {
-    background-color: rgba(15, 15, 15, 0.5);
-    padding: 5px;
-    border-radius: 5px;
+    /* background-color: rgba(15, 15, 15, 0.5); */
+    background-color: rgba(15, 15, 15, 0.3);
+    /* padding: 5px; */
+    /* border-radius: 5px; */
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .textbox{
@@ -107,6 +114,7 @@ html, body{
     margin-right: auto;
     width: 45%;
     padding: 50px;
+
     /* background-color:aquamarine; */
 }
 
