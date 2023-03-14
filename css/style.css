@@ -236,3 +236,20 @@ a:hover::before {
 /* .footicon:hover::before {
     transform: scaleX(1);
 } */
+
+#resume {
+    border-radius: 20px; 
+    border: 2px solid rgb(15,15,15); 
+    text-align: center; 
+    padding: 5px; width: 40%; 
+    margin:auto;
+
+    transition: box-shadow 0.5s ease;
+    cursor: pointer;
+
+}
+
+#resume:hover {
+    box-shadow: 0 0 15px 5px rgba(15, 15, 15, 0.2);
+    border-color: teal;
+}
