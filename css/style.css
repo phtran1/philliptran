@@ -125,13 +125,13 @@ hr{
     
     /* width: 50%; */
 }
-a{
+a:not(basiclink, .exclude){
     position: relative;
     text-decoration: none;
     color: black;
 }
 
-a::before {
+a:not(#basiclink, .exclude):before {
     content: "";
     position: absolute;
     display: block;
@@ -144,11 +144,11 @@ a::before {
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }
-a:hover {
+a:not(#basiclink, .exclude):hover {
     /* color: dodgerblue; */
     color: teal;
 }
-a:hover::before {
+a:not(#basiclink, .exclude):hover::before {
     transform: scaleX(1);
 }
 

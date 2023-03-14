@@ -15,21 +15,6 @@
     height: 500px;
 } */
 
-.title{
-    /* margin-top: 100px; */
-    background-image: url("/static/uw.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-    margin: auto;
-    width: 100%;
-    height: 500px;
-    /* background-color:aqua; */
-}
-
 .boxcontainer{
     height: auto;
     /* margin: auto; */
@@ -54,7 +39,7 @@
     height: 425px;
     font-size: 18px;
     /* background-color: rgba(95, 199, 173, 0.7); */
-    padding: 25px;
+    /* padding: 25px; */
     /* margin-top: 75px; */
     margin-bottom: 45px;
     margin-left: 10px;
@@ -76,7 +61,11 @@
 
 .ptext {
     /* background-color: aquamarine; */
+    padding: 25px;
     margin-top: 55%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto; */
 }
 
 /* Text on project page */
@@ -92,3 +81,24 @@
     /* background-color:aquamarine; */
 }
 
+#basiclink {
+    cursor: pointer;
+    color:black;
+}
+
+#basiclink:hover {
+    color:darkblue;
+}
+
+.exclude {
+    color:black;
+    text-decoration: none;
+    display:inline-flex;
+}
+
+.linkbox {
+    display: inline;
+    height: 425px;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
