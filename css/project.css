@@ -3,9 +3,23 @@
     box-sizing: border-box;
 }
 
-.ptitle{
-    /* margin-top: 100px; */
+/* .title{
+    background-image: url("/static/uw.jpg");
     background-repeat: no-repeat;
+    
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+} */
+
+.title{
+    /* margin-top: 100px; */
+    background-image: url("/static/uw.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     display: flex; 
     align-items: center; 
@@ -14,17 +28,6 @@
     width: 100%;
     height: 500px;
     /* background-color:aqua; */
-}
-
-.ptitlebox {
-    background-color: rgba(15, 15, 15, 0.5);
-    padding: 5px;
-    width: 100%;
-    height: 100%;
-    /* border-radius: 5px; */
-    display: flex;
-    align-items: center; 
-    justify-content: center;
 }
 
 .boxcontainer{
