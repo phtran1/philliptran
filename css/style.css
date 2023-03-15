@@ -116,7 +116,8 @@ p{
 
 hr{
     margin:auto;
-    
+    border-color: rgba(15, 15, 15, 0.2);
+    border-width: 0.5px;
     /* width: 50%; */
 }
 
