@@ -9,14 +9,6 @@
     padding: 0;
 }
 html, body{
-    /* background-image: url("static/street.jpg"); */
-    /* background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; */
-    
-    /* background-size: 1950px 300px; */
-    /* background-color: rgb(74, 118, 148); */
-    /* font-family: "Open Sans","Arial"; */
     font-family: 'Open Sans', sans-serif;
     height: 100%;
 }
@@ -50,7 +42,8 @@ html, body{
     margin-left: 1rem;
     margin-top: 1.5rem;
     /* font-weight: bold; */
-  }
+}
+
 .float_right {
     float: right;
     font-size: 1.3rem;
@@ -125,7 +118,8 @@ hr{
     
     /* width: 50%; */
 }
-a:not(basiclink, .exclude){
+
+a{
     position: relative;
     text-decoration: none;
     color: black;
@@ -143,7 +137,7 @@ a:not(#basiclink, .exclude):before {
     background-color:teal;
     transform: scaleX(0);
     transition: transform 0.3s ease;
-  }
+}
 a:not(#basiclink, .exclude):hover {
     /* color: dodgerblue; */
     color: teal;
@@ -230,7 +224,6 @@ a:not(#basiclink, .exclude):hover::before {
 
     transition: box-shadow 0.5s ease;
     cursor: pointer;
-
 }
 
 #resume:hover {
