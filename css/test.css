@@ -9,6 +9,14 @@
     padding: 0;
 }
 html, body{
+    /* background-image: url("static/street.jpg"); */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    
+    /* background-size: 1950px 300px; */
+    /* background-color: rgb(74, 118, 148); */
+    /* font-family: "Open Sans","Arial"; */
     font-family: 'Open Sans', sans-serif;
     height: 100%;
 }
@@ -42,8 +50,7 @@ html, body{
     margin-left: 1rem;
     margin-top: 1.5rem;
     /* font-weight: bold; */
-}
-
+  }
 .float_right {
     float: right;
     font-size: 1.3rem;
@@ -54,18 +61,35 @@ html, body{
 .fa-house {
     font-size: 25px;
 }
+/* .home{
+    top: 25px;
+    left:25%;
+    position:absolute;
+}
 
+.about{
+    right: 25%;
+    top: 25px;
+    position: absolute;
+}
+
+.projects{
+    right: 20%;
+    top: 25px;
+    position: absolute;
+} */
 .title{
+    /* margin-top: 100px; */
     background-image: url("/static/uw.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    
     display: flex; 
     align-items: center; 
     justify-content: center;
     margin: auto;
     width: 100%;
     height: 500px;
+    /* background-color:aqua; */
 }
 
 .titlebox {
@@ -115,10 +139,9 @@ p{
 
 hr{
     margin:auto;
-    
+    color: rgba(15, 15, 15, 0.1);
     /* width: 50%; */
 }
-
 a{
     position: relative;
     text-decoration: none;
@@ -137,13 +160,12 @@ a::before {
     background-color:teal;
     transform: scaleX(0);
     transition: transform 0.3s ease;
-}
-
-a:not(#basiclink, .exclude):hover {
+  }
+a:hover {
     /* color: dodgerblue; */
     color: teal;
 }
-a:not(#basiclink, .exclude):hover::before {
+a:hover::before {
     transform: scaleX(1);
 }
 
@@ -225,6 +247,7 @@ a:not(#basiclink, .exclude):hover::before {
 
     transition: box-shadow 0.5s ease;
     cursor: pointer;
+
 }
 
 #resume:hover {
