@@ -180,6 +180,8 @@ a:not(#basiclink, .exclude):hover::before {
 .footicon{
     color: white;
     font-size: 30px;
+    margin-right: 55px;
+    margin-left: 55px;
 }
 
 .footicon:hover{
