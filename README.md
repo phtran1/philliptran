@@ -9,13 +9,14 @@ TODO:
 
 - ~~Learn/work on basics of web development~~
 - ~~Get basic layout of website~~
-- Work on website aesthetics
+- ~~Add nav bar~~
+- ~~Add footer with social links~~
 - Populate website with information
   - Add aboutme
   - Add Projects
   - ~~Add resume~~
-   - Update Resume
-- Make website UI fit mobile browsers
+   - ~~Update Resume~~
+- Make website UI mobile friendly
   
   
  
