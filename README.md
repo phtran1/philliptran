@@ -14,6 +14,7 @@ TODO:
 - Populate website with information
   - Add aboutme
   - Add Projects
+    - Write more about projects, add more photos (currently project pages just have a simple description)
   - ~~Add resume~~
    - ~~Update Resume~~
 - Make website UI mobile friendly
