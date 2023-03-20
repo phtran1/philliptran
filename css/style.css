@@ -13,6 +13,12 @@ html, body{
     height: 100%;
 }
 
+/* main{
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+    background-color: aqua;
+} */
+
 #container {
     min-height: 100%;
     /* background-color: rgb(74, 118, 148); */
