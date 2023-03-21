@@ -233,3 +233,9 @@ a:not(#basiclink, .exclude):hover::before {
     box-shadow: 0 0 15px 5px rgba(15, 15, 15, 0.2);
     border-color: teal;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
