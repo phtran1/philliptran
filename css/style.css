@@ -11,6 +11,7 @@
 html, body{
     font-family: 'Open Sans', sans-serif;
     height: 100%;
+    font-size: 62.5%;
 }
 
 #container {
@@ -36,17 +37,17 @@ html, body{
 
 .float_left {
     float: left;
-    font-size: 1.3rem;
-    margin-left: 1rem;
-    margin-top: 1.5rem;
+    font-size: 2.08rem;
+    margin-left: 1.6rem;
+    margin-top: 2.4rem;
     /* font-weight: bold; */
 }
 
 .float_right {
     float: right;
-    font-size: 1.3rem;
-    margin-right: 1rem;
-    margin-top: 1.5rem;
+    font-size: 2.08rem;
+    margin-right: 1.6rem;
+    margin-top: 2.4rem;
     /* font-weight: bold; */
 }
 .fa-house {
@@ -90,7 +91,7 @@ html, body{
     width: 45%;
     /* width: 90%; */
     padding: 50px;
-    line-height: 27px;
+    line-height: 2;
 
     /* background-color:aquamarine; */
 }
@@ -106,11 +107,20 @@ html, body{
 
 h1{
     text-align: center;
-    font-size: 3em;
+    font-size: 4.8rem;
     color: white;
 }
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 1.872rem;
+}
+
 p{
-    font-size: 18px;
+    font-size: 1.8rem;
     /* color: white; */
 }
 
@@ -187,7 +197,7 @@ a:not(#basiclink, .exclude):hover::before {
 
 .footicon{
     color: white;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .footicon:hover{
@@ -224,9 +234,10 @@ a:not(#basiclink, .exclude):hover::before {
     text-align: center; 
     padding: 5px; width: 40%; 
     margin:auto;
-
     transition: box-shadow 0.5s ease;
     cursor: pointer;
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
 
 #resume:hover {
