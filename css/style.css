@@ -242,6 +242,7 @@ a:not(#basiclink, .exclude):hover::before {
   }
 
 /* responsive styling */
+/* Different break points: <600px, 601px, 768px, 992px, 1200px */
 @media (max-width: 600px){
     .head{
         width: 100%;
