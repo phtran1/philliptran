@@ -253,6 +253,7 @@ a:not(#basiclink, .exclude):hover::before {
         margin-top: 25px;
         margin-bottom: 25px;
         width: 90%;
+        line-height: 1.5;
         padding: 10px;
         /* line-height: 1.5; */
         /* background-color:aquamarine; */
