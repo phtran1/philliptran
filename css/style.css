@@ -271,5 +271,6 @@ a:not(#basiclink, .exclude):hover::before {
     
     img{
         width: 100%;
+        height: 80%;
     }
 }
