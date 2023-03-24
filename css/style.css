@@ -159,6 +159,9 @@ a:not(#basiclink, .exclude):hover::before {
     height: 100px;
     margin-top: -100px;
     clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .icons{
@@ -243,7 +246,7 @@ a:not(#basiclink, .exclude):hover::before {
 
 /* responsive styling */
 /* Different break points: <600px, 601px, 768px, 992px, 1200px */
-@media (max-width: 600px){
+@media only screen and (max-width: 600px) and (orientation: portrait){
     .head{
         width: 100%;
     }
@@ -256,7 +259,6 @@ a:not(#basiclink, .exclude):hover::before {
         width: 90%;
         line-height: 1.5;
         padding: 10px;
-        /* line-height: 1.5; */
         /* background-color:aquamarine; */
     }
     h1{
@@ -279,3 +281,81 @@ a:not(#basiclink, .exclude):hover::before {
         height: 80%;
     }
 }
+
+@media only screen and (max-width: 600px) and (orientation: landscape){
+    .head{
+        width: 90%;
+    }
+    .title{
+        height: 250px;
+    }
+    .textbox{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 90%;
+        line-height: 1.5;
+        padding: 10px;
+    }
+    h1{
+
+        font-size: 2.5em;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+        /* color: white; */
+    }   
+
+    img{
+        width: 100%;
+        height: 80%;
+    }
+}
+
+/* 
+@media (min-width: 601px){
+    
+    .textbox{
+        background-color: aqua;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 90%;
+        line-height: 1.5;
+        padding: 10px;
+
+    }
+}
+
+@media (min-width: 768px){
+    
+    .textbox{
+        background-color: red;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 90%;
+        line-height: 1.5;
+        padding: 10px;
+
+    }
+}
+
+@media (min-width: 992px){
+    
+    .textbox{
+        background-color: palegreen;
+     
+    }
+}
+
+@media (min-width: 1200px){
+    
+    .textbox{
+        background-color: yellow;
+      
+    }
+} */
