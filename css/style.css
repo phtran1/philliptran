@@ -243,6 +243,9 @@ a:not(#basiclink, .exclude):hover::before {
 
 /* responsive styling */
 @media (max-width: 600px){
+    .head{
+        width: 100%;
+    }
     .title{
         height: 250px;
     }
