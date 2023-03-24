@@ -240,3 +240,36 @@ a:not(#basiclink, .exclude):hover::before {
     margin-left: auto;
     margin-right: auto;
   }
+
+/* responsive styling */
+@media (max-width: 600px){
+    .title{
+        height: 250px;
+    }
+    .textbox{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 90%;
+        padding: 10px;
+        /* line-height: 1.5; */
+        /* background-color:aquamarine; */
+    }
+    h1{
+
+        font-size: 2.5em;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+        /* color: white; */
+    }   
+    
+    img{
+        width: 100%;
+    }
+}
