@@ -162,6 +162,7 @@ a:not(#basiclink, .exclude):hover::before {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .icons{
@@ -169,12 +170,13 @@ a:not(#basiclink, .exclude):hover::before {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    gap: 0px 110px;
 }
 
-.iconbox{
-    margin-right: 55px;
-    margin-left: 55px;
-}
+/* .iconbox{
+    width: 100%;
+} */
 
 .bi-brightness-high-fill{
     color: white;
@@ -213,8 +215,8 @@ a:not(#basiclink, .exclude):hover::before {
 }
 
 /* .copyright {
-    color:white;
-    text-align: right;
+    color:aqua;
+    float: right;
     margin-top: 50px;
     margin-right: -740px;
 } */
