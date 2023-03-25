@@ -172,6 +172,7 @@ a:not(#basiclink, .exclude):hover::before {
     align-items: center;
     width: 100%;
     gap: 0px 110px;
+    background-color: rgb(15, 15, 15);
 }
 
 /* .iconbox{
@@ -263,6 +264,11 @@ a:not(#basiclink, .exclude):hover::before {
         padding: 10px;
         /* background-color:aquamarine; */
     }
+
+    .icons{
+        gap: 0px 90px;
+    }
+
     h1{
 
         font-size: 2.5em;
