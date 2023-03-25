@@ -250,7 +250,7 @@ a:not(#basiclink, .exclude):hover::before {
 /* Different break points: <600px, 601px, 768px, 992px, 1200px */
 @media only screen and (max-width: 600px) and (orientation: portrait){
     .head{
-        width: 100%;
+        width: 90%;
     }
     .title{
         height: 250px;
@@ -284,9 +284,9 @@ a:not(#basiclink, .exclude):hover::before {
     }
 }
 
-@media only screen and (max-width: 600px) and (orientation: landscape){
+@media only screen and (min-width: 600px) and (max-width: 992px) and (orientation: landscape){
     .head{
-        width: 90%;
+        width: 85%;
     }
     .title{
         height: 250px;
@@ -294,7 +294,7 @@ a:not(#basiclink, .exclude):hover::before {
     .textbox{
         margin-top: 25px;
         margin-bottom: 25px;
-        width: 90%;
+        width: 85%;
         line-height: 1.5;
         padding: 10px;
     }
