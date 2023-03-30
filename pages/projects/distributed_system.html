@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phillip Tran</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/project.css">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,40 +37,75 @@
             </div>
             <div class="textbox">
                 <!-- <hr> -->
-                <p>Distributed System is a transactional key-value store in Java using the Multi-Paxos consensus algorithm.</p>
-            </div>
+                <p>Distributed System is a collaborative project that I worked on with one other classmate. We learned about how distributed systems function and what tools and algorithms are used in these systems.
+                </p>
+                <br>
+                <!-- <h2>Description</h2>
+                <hr>
+                <br>
+                <p>
+                    The goal of this project was to learn how to build a linerizable, sharded key-value store with multi-key updates and dynamic load balancing. This system functions similarly to Amazon's DynamoDB and Google's spanner.
+                    <br>
+                    Edit Later:
+                    Start design and implemented KV store using provided framework. Key value acts similarly to a hash map where you can get a value with a provided key and update that value with the provided key. After kv store had to figure out how to get servers to function even when a server drops. (primary-backup) doing this allows systems to remain functional even if a server failure happens. Next step is implementing multi-paxos communication algorithm. This is essentially the upgraded version of the previous step... 
+                    final step is to implement load-balancing across all the server groups with multi-key updates. (EDIT all of this later)
+                </p>
 
-            
+                <br>
+                <h2>Challenges</h2>
+                <hr>
+                <p>
+                    Dropped messages, messages and tasks executed in wrong order, Server election not working properly, No response between servers and client
+                    To fix dropped messages make it so client constantly sends out messages to servers until response happens. Election had to work on timers and "heart beat" which uses the timers to ping other servers.
+                </p> -->
+
+                <br>
+                <h2>Technologies Used:</h2>
+                <hr>
+                <br>
+                <p>
+                    Java, IntelliJ, Python, Git 
+                </p>
+            </div>    
         </div>
+
+        <div class="prev-next">
+            <hr>
+            <a class="exclude prev arrow" href="/pages/projects/portfolio.html" title="Portfolio">
+                <i class="fa-solid fa-arrow-left-long"></i> &nbsp; Previous
+            </a>
+
+            <a class="exclude next arrow" href="/pages/projects/husky_maps.html" title="Husky Maps">
+                Next &nbsp; <i class="fa-solid fa-arrow-right-long"></i> 
+            </a>
+        </div>
+
+        <footer id="footer">
+            <div class="icons">
+                <!-- <i class="bi bi-brightness-high-fill" id="toggleDark"></i> -->
+                <!-- <i class="bi bi-brightness-high-fill" id="check" onclick="changeStatus()"></i> -->
+    
+                <div class="iconbox">
+                    <a class = "footicon" href="https://github.com/phtran1" target=_blank title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+    
+                <div class="iconbox">
+                    <a class = "footicon" href="https://www.linkedin.com/in/phtran1/" target=_blank title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+    
+                <div class="iconbox">
+                    <a class = "footicon" href="/static/Resume.pdf" target=_blank title="Resume">
+                        <i class="fa-solid fa-file-pdf"></i>
+                    </a>
+                </div>
+                <!-- <br>
+                <p>© 2023 Phillip Tran. All rights reserved.</p> -->
+            </div>
+        </footer>
     </div>
-    <footer id="footer">
-        <div class="icons">
-            <!-- <i class="bi bi-brightness-high-fill" id="toggleDark"></i> -->
-            <!-- <i class="bi bi-brightness-high-fill" id="check" onclick="changeStatus()"></i> -->
-
-            <div class="iconbox">
-                <a class = "footicon" href="https://github.com/phtran1" target=_blank title="GitHub">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </div>
-
-            <div class="iconbox">
-                <a class = "footicon" href="https://www.linkedin.com/in/phtran1/" target=_blank title="LinkedIn">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </div>
-
-            <div class="iconbox">
-                <a class = "footicon" href="/static/Resume.pdf" target=_blank title="Resume">
-                    <i class="fa-solid fa-file-pdf"></i>
-                </a>
-            </div>
-            <!-- <br>
-            <p>© 2023 Phillip Tran. All rights reserved.</p> -->
-        </div>
-    </footer>
-    
-    
-    
 </body>
 </html>
