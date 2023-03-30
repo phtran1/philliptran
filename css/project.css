@@ -88,6 +88,7 @@
     color:darkblue;
 }
 
+/* Prev Next Navigation */
 .prev {
     float: left;
 }
@@ -127,6 +128,8 @@ a{
     display:inline-flex;
 } */
 
+
+/* responsive styling */
 @media only screen and (max-width: 600px) and (orientation: portrait){
     .prev-next {
         width: 90%;
