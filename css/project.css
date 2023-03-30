@@ -106,10 +106,9 @@ a{
 .prev-next{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 10px;
     width: 50%;
-    line-height: .75;
     font-size: 20px;
     /* background-color: aqua; */
 }
@@ -120,6 +119,18 @@ a{
 
 .arrow:hover {
     color: teal;
+}
+
+.prev-next-text-box {
+    width: 50%; 
+    margin-left: auto; 
+    margin-right:auto;
+}
+
+.prev-next-text {
+    font-size: 14px;
+    color:dimgrey;
+    line-height: .75;
 }
 
 /* .exclude {
@@ -135,6 +146,12 @@ a{
         width: 90%;
         font-size: 18px;
     }
+
+    .prev-next-text-box {
+        width: 90%;
+        font-size: 12px;
+    }
+
     .box {
         margin-left: 10px;
         margin-right: 10px;
@@ -145,5 +162,10 @@ a{
     .prev-next {
         width: 85%;
         font-size: 18px;
+    }
+
+    .prev-next-text-box {
+        width: 85%;
+        font-size: 12px;
     }
 }
