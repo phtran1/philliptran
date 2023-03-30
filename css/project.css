@@ -90,12 +90,10 @@
 
 .prev {
     float: left;
-    font-size: 20px;
 }
 
 .next {
     float: right;
-    font-size: 20px;
 }
 
 a{
@@ -111,6 +109,7 @@ a{
     margin-bottom: 10px;
     width: 50%;
     line-height: .75;
+    font-size: 20px;
     /* background-color: aqua; */
 }
 
@@ -131,6 +130,7 @@ a{
 @media only screen and (max-width: 600px) and (orientation: portrait){
     .prev-next {
         width: 90%;
+        font-size: 18px;
     }
     .box {
         margin-left: 10px;
@@ -141,5 +141,6 @@ a{
 @media only screen and (min-width: 600px) and (max-width: 992px) and (orientation: landscape){
     .prev-next {
         width: 85%;
+        font-size: 18px;
     }
 }
