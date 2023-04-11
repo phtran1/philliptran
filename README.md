@@ -17,6 +17,8 @@ TODO:
     - Write more about projects, add more photos (currently project pages just have a simple description)
   - ~~Add resume~~
    - ~~Update Resume~~
+   - Add icons to resume or some images
+   - Add contact info to about page
 - Make website UI mobile friendly
   
   
