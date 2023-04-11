@@ -148,11 +148,11 @@ a::before {
     transition: transform 0.3s ease;
 }
 
-a:not(#basiclink, .exclude):hover {
+a:not(.basiclink, .exclude):hover {
     /* color: dodgerblue; */
     color: teal;
 }
-a:not(#basiclink, .exclude):hover::before {
+a:not(.basiclink, .exclude):hover::before {
     transform: scaleX(1);
 }
 
