@@ -32,4 +32,4 @@ function typeText() {
     }
 }
 
-const typingInterval = setInterval(typeText, 200);
+const typingInterval = setInterval(typeText, 175);
