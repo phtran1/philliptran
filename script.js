@@ -8,6 +8,7 @@ function typeText() {
     // Types the char at the provided indices
     typingText.innerHTML += textArray[i][j];
     j++;
+    cursorSpan.classList.add("typing");
 
     if (j === textArray[i].length) {
         i++;
@@ -26,9 +27,7 @@ function typeText() {
             clearInterval;
             cursorSpan.style.display = "inline-block";
             cursorSpan.classList.remove("typing");
-        } else {
-            cursorSpan.classList.add("typing");
-        }
+        } 
     }
 }
 
