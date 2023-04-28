@@ -58,6 +58,31 @@ html, body{
     font-size: 25px;
 }
 
+/* Hide the text that will be animated */
+/* .typing-text {
+    overflow: hidden; 
+} */
+ 
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: white;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+
+.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0% {background-color: white;}
+    49% {background-color: white;}
+    50% {background-color: transparent;}
+    99% {background-color: white;}
+    100% {background-color: white;}
+}
+
 .title{
     background-image: url("/static/uw.jpg");
     background-repeat: no-repeat;
