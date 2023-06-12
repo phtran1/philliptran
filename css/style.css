@@ -279,6 +279,28 @@ a:not(.basiclink, .exclude):hover::before {
     margin-right: auto;
   }
 
+/* About Page */
+.logo {
+    vertical-align: middle;
+    display: inline-block;
+    /* width: 30px;
+    height: 30px; */
+    width: 48px;
+    height: 48px;
+    border-radius: 25px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.about-box {
+    display:flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+}
+
+.about-info {
+    flex-grow: 1;
+}
 /* responsive styling */
 /* Different break points: <600px, 601px, 768px, 992px, 1200px */
 @media only screen and (max-width: 600px) and (orientation: portrait){
@@ -324,6 +346,14 @@ a:not(.basiclink, .exclude):hover::before {
     #footer {
         height: 80px;
     }
+
+    .logo {
+        display: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin-right: 5px;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) and (orientation: landscape){
@@ -362,6 +392,13 @@ a:not(.basiclink, .exclude):hover::before {
 
     #footer {
         height: 70px;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin-right: 5px;
     }
 }
 
