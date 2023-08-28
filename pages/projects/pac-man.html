@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phillip Tran</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/project.css">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,52 +30,69 @@
                     About
                 </a>
             </div>
-            <div class="title">
+            <div class="title" style="background-image: url(/static/pac-man.jpg);">
                 <div class="titlebox">
                     <h1>AI Pac-Man</h1>
                 </div>
             </div>
             <div class="textbox">
                 <!-- <hr> -->
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus doloribus quibusdam qui vero deleniti ea sapiente vitae nam accusantium inventore eos reiciendis exercitationem ipsum ratione neque beatae nesciunt, magni rem!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus doloribus quibusdam qui vero deleniti ea sapiente vitae nam accusantium inventore eos reiciendis exercitationem ipsum ratione neque beatae nesciunt, magni rem!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus doloribus quibusdam qui vero deleniti ea sapiente vitae nam accusantium inventore eos reiciendis exercitationem ipsum ratione neque beatae nesciunt, magni rem!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus doloribus quibusdam qui vero deleniti ea sapiente vitae nam accusantium inventore eos reiciendis exercitationem ipsum ratione neque beatae nesciunt, magni rem!</p>
-                
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus doloribus quibusdam qui vero deleniti ea sapiente vitae nam accusantium inventore eos reiciendis exercitationem ipsum ratione neque beatae nesciunt, magni rem!</p>
-            </div>
-
-            
+                <p>
+                    AI Pac-Man is a class long project implementing search, decision making, and learning algorithms to develop an autonomous AI for Pac-Man, enabling self-play and strategic decision making.
+                    <br>
+                    <br>
+                    Through a series of dynamic weekly iterations, I got to explore various topics of artificial intelligence with the famous arcade game Pac-Man. I delved into different search algorithms, implementing Depth First Search, Breadth First Search, and A* Search, to explore how Pac-Man's pathfinding behavior in a maze shifts in response to these search methods. Building on this, I also learned how to build different types of reflex agents by incorporating decision-making algorithms such as minimax and expectimax search. With these decision-making methods, I got to witness how Pac-Man performed in different scenarios against ghosts. Following this topic I continued to learning algorithms where I used the application of Markov Decision Processes to implement value iteration and Q-Learning to improve Pac-Man's performance against ghosts.
+                </p>
+            </div>    
         </div>
+
+        <div class="prev-next-text-box">
+            <hr>
+            <br>
+            <p class="prev-next-text" style="float: left;">
+                Distributed System
+            </p>
+            <p class="prev-next-text" style="float: right;">
+                Husky Maps
+            </p>
+        </div>
+
+        <div class="prev-next">
+            <a class="exclude prev arrow" href="/pages/projects/distributed_system.html">
+                <i class="fa-solid fa-arrow-left-long"></i> &nbsp; Previous
+            </a>
+
+            <a class="exclude next arrow" href="/pages/projects/husky_maps.html">
+                Next &nbsp; <i class="fa-solid fa-arrow-right-long"></i> 
+            </a>
+        </div>
+
+        <footer id="footer">
+            <div class="icons">
+                <!-- <i class="bi bi-brightness-high-fill" id="toggleDark"></i> -->
+                <!-- <i class="bi bi-brightness-high-fill" id="check" onclick="changeStatus()"></i> -->
+    
+                <div class="iconbox">
+                    <a class = "footicon" href="https://github.com/phtran1" target=_blank title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+    
+                <div class="iconbox">
+                    <a class = "footicon" href="https://www.linkedin.com/in/phtran1/" target=_blank title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+    
+                <div class="iconbox">
+                    <a class = "footicon" href="/static/Resume.pdf" target=_blank title="Resume">
+                        <i class="fa-solid fa-file-pdf"></i>
+                    </a>
+                </div>
+                <!-- <br>
+                <p>© 2023 Phillip Tran. All rights reserved.</p> -->
+            </div>
+        </footer>
     </div>
-    <footer id="footer">
-        <div class="icons">
-            <!-- <i class="bi bi-brightness-high-fill" id="toggleDark"></i> -->
-            <!-- <i class="bi bi-brightness-high-fill" id="check" onclick="changeStatus()"></i> -->
-
-            <div class="iconbox">
-                <a class = "footicon" href="https://github.com/phtran1" target=_blank title="GitHub">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </div>
-
-            <div class="iconbox">
-                <a class = "footicon" href="https://www.linkedin.com/in/phtran1/" target=_blank title="LinkedIn">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </div>
-
-            <div class="iconbox">
-                <a class = "footicon" href="/static/Resume.pdf" target=_blank title="Resume">
-                    <i class="fa-solid fa-file-pdf"></i>
-                </a>
-            </div>
-            <!-- <br>
-            <p>© 2023 Phillip Tran. All rights reserved.</p> -->
-        </div>
-    </footer>
-    
-    
-    
 </body>
 </html>
